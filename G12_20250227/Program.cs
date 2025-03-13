@@ -31,11 +31,11 @@
                          2: Sort by string Model (Model, Title)
              */
 
-            ArrayHelper.Sort(books);
+            ArrayHelper.Sort(cars);
 
-            for (int i = 0; i < books.Length; i++)
+            for (int i = 0; i < cars.Length; i++)
             {
-                Console.WriteLine(books[i]);
+                Console.WriteLine(cars[i]);
             }
         }
     }
